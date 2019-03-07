@@ -5,7 +5,7 @@ import json
 #f = open("test.out", 'w')
 #errorJSON = {}
 
-with open ("/home/bauuser/workspace/hive-test/stderr", "r") as myfile:
+with open ("/var/lib/jenkins/workspace/hive-python/stderr", "r") as myfile:
     data = myfile.readlines()
     str = ''.join(data)
     #sys.stdout = f
